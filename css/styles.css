@@ -1,0 +1,93 @@
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+}
+
+.left-container {
+    background-color: #1C1C1C;
+    min-width: 30%;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 150px;
+
+}
+.left-container h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.right-container {
+    background-color: #1C1C1C;
+    padding: 30px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.right-container hr{
+    color: #918e8e;
+    margin: 50px 100px 50px 100px;
+}
+
+.aboutus-container h1{
+    color: #fff;
+    font-size: 50px;
+}
+.nav-link-cont {
+    color: #918e8e;
+    font-style: italic;
+}
+
+.nav-link-text {
+    color: #547b68;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.about-description-cont {}
+
+.about-description-cont p {
+    color: #918e8e;
+}
+
+.myservices-container {}
+
+.myservices-container h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.myservices-items-cont {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.myservices-item {
+    width:50%;
+    margin-bottom: 10px;
+}
+
+.myservices-item i {
+    color: #547b68;
+    font-size: 28px;
+}
+
+.myservices-item-heading {
+    color: #fff;
+    font-size: 22px;
+}
+
+.myservices-item-text {
+    color: #918e8e;
+}
+.profile-text{
+    color: #547b68;
+    font-weight: bold;
+    font-style: italic;
+}
